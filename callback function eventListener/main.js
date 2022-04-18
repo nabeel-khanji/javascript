@@ -2,14 +2,18 @@
 // what is a callback funtion in javascript?
 // call sometime else in your programe or after certain amount of time
 
-setTimeout(function() { console.log("wer"); }, 3000);
+setTimeout(function settimer() {
+    console.log("timer");
+}, 3000);
 
 function x(y) {
-    console.log('y');
+    console.log('x');
+    y();
 }
 x(function y() {
     console.log('y');
 });
+
 
 // 2.
 // javascript is a synchronous and single - threaded langusage
@@ -31,3 +35,10 @@ x(function y() {
 
 // 8.
 // garbage collection & removeEventListener
+function attachedEventListener() {
+    let count = 0;
+    document.getElementById("clickMe").addEventListener('click', function xyz() {
+        console.log('Button Clicked', count++);
+    });
+}
+attachedEventListener();
