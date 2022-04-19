@@ -1,5 +1,8 @@
 // 1.
 // what is a callback funtion in javascript?
+// a
+// function which is to be executed after another
+// function has finished execution
 // call sometime else in your programe or after certain amount of time
 
 setTimeout(function settimer() {
@@ -9,6 +12,8 @@ setTimeout(function settimer() {
 function x(y) {
     console.log('x');
     y();
+    console.log('function one is completed');
+
 }
 x(function y() {
     console.log('y');

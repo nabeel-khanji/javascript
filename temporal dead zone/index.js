@@ -1,9 +1,11 @@
-let a = 3;
+// the area of a block where a variable is inaccessible until the moment the computer
+// completely initializes it with a value.let a = 3;
+// the term to describe the state where variables are un - reachable.
 // let a = 7;
 console.log(a);
 const c = 4;
 // c = 3;
-// var a = 3;  
+// var a = 3;
 var b = 30;
 
 

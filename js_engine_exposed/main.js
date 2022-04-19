@@ -54,7 +54,7 @@
 // mark and sweep algo
 // There are many garbage collection algorithms that run in the background, of which one of 
 // them is mark and sweep.
-// All the objects which are created dynamically(using new in C++and Java) are allocated 
+// All the objects which are created dynamically(`using new in C++and Java) are allocated 
 // memory in the heap.If we go on creating objects we might get Out Of Memory error since it
 // is not possible to allocate heap memory to objects.So we need to clear heap memory by
 // releasing memory

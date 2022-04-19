@@ -4,6 +4,18 @@ const arr = [5, 1, 3, 2, 6];
 // const triple = [15, 3, 9, 6, 18];
 // const binary = ['101', '1', '11', '10', '110'];
 
+// map() creates a new array from calling a
+// function
+// for every array element.map() calls a
+// function once
+// for each element in an array.map() does not execute the
+// function
+// for empty elements.map() does not change the original array.
+
+// use filter()
+// function in JavaScript to filter the object array based on attributes
+
+
 const output1 = arr.map((arr) => arr * 2);
 const output2 = arr.map((arr) => arr * 3);
 const output3 = arr.map((arr) => arr.toString(2));

@@ -1,3 +1,6 @@
+// a feature in JavaScript where an inner function has access 
+// to the outer(enclosing) function 's variables 
+
 // function x() {
 //     var a = 7;
 

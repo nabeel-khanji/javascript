@@ -41,20 +41,14 @@ console.log(d);
 // First CLass Fluntion
 // funtions are first class citizen
 const Arithmetics = {
-    add: (a, b) => {
-        return `${a} + ${b} = ${a+b}`;
-    },
-    subtract: (a, b) => {
-        return `${a} - ${b} = ${a-b}`
-    },
-    multiply: (a, b) => {
-        return `${a} * ${b} = ${a*b}`
-    },
+    add: (a, b) => `${a} + ${b} = ${a + b}`,
+    subtract: (a, b) => `${a} - ${b} = ${a - b}`,
+    multiply: (a, b) => `${a} * ${b} = ${a * b}`,
     division: (a, b) => {
-        if (b != 0) return `${a} / ${b} = ${a/b}`;
+        if (b != 0)
+            return `${a} / ${b} = ${a / b}`;
         return `Cannot Divide by Zero!!!`;
     }
-
 }
 
 console.log(Arithmetics.add(100, 100));

@@ -24,7 +24,7 @@
 // console.log(c);
 
 
-// illigal shadowing 
+// illigal shadowing
 // let a = 3; {
 //     var a = 4;
 // }
@@ -40,7 +40,7 @@
 
 
 
-// follow lexical scope 
+// follow lexical scope
 const a = 20; {
     const a = 200; {
         const a = 300
